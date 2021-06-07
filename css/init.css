@@ -1,0 +1,21 @@
+@media screen and (max-width: 960px) {
+    .open-menu {
+      display: block;
+    }
+  
+    nav {
+      flex-wrap: wrap;
+    }
+  
+    nav ul {
+      order: 3;
+      flex-direction: column;
+      width: 100%;
+      display: none !important;
+    }
+  
+    /* CLASE PARA OCULTAR O MOSTRAR EL MENÚ */
+    .open-menu-responsive {
+      display: flex !important;
+    }
+  }
