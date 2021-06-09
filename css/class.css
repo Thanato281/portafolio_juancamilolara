@@ -29,3 +29,14 @@ p {
     font-size: 1.4rem;
     padding: 15px 0;
 }
+table {
+    width: 100%;
+    background-color: blanchedalmond;
+    text-align: left;
+    padding: 20px;
+    border-collapse: collapse;
+}
+tr, td{
+    border: solid 1px black;
+    padding: 10px;
+}
